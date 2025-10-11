@@ -70,7 +70,6 @@ minimum_length = 26
 maximum_length = 34000
 
 count, current = "0", str(20 ** 25)
-print(current)
 for length in range(minimum_length, maximum_length + 1):
     current = mul(current, "20")
     count = add(count, current)
