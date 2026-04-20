@@ -61,7 +61,7 @@ for former, latter in [(4, 27),
 
 
 coordinates = MDS(n_components=3, dissimilarity="precomputed", random_state=2025).fit_transform(1.0 - matrix)
-with open("output.pdb", "w") as file:
+with open("../data/output.pdb", "w") as file:
     for i, (x, y, z) in enumerate(coordinates, start=1):
         file.write(
             "ATOM  {:5d}  CA  DUM A{:4d}    {:8.3f}{:8.3f}{:8.3f}  1.00  0.00\n".format(
