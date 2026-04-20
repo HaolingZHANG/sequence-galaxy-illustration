@@ -34,10 +34,10 @@ Figure 3 was constructed using Microsoft PowerPoint; see
 for details.
 
 The 3D structural elements in Figure 6a were generated from a pseudo-PDB file rendered in 
-[PyMOL Software](https://www.pymol.org/). 
+[PyMOL](https://www.pymol.org/). 
 The procedure for generating this file is described in 
 [structure.py](https://github.com/HaolingZHANG/sequence-galaxy-illustration/blob/main/code/structure.py). 
-The rendered output from this Python script was used as input for styling within PyMOL Software. 
+The rendered output from this Python script was used as input for styling within PyMOL. 
 Final image composition was completed in 
 [Adobe Illustrator](https://www.adobe.com/products/illustrator.html).
 
@@ -47,5 +47,13 @@ they are provided as-is.
 # Citation
 
 If you think the corresponding paper of this repository helps or being used in your research, 
-please consider refer this work.
+please refer this work.
 
+```text
+@article{zhang2026toward,
+  title={Toward a formal cartography of protein function},
+  author={Zhang, Haoling and Lehmann, Robert and Tegner, Jesper N.},
+  journal={arXiv preprint arXiv:XXX},
+  year={2026}
+}
+```
