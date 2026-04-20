@@ -1,6 +1,6 @@
 """
 @Author      : Haoling Zhang
-@Description : Figure 7
+@Description : Figure 6
 """
 from logging import getLogger, CRITICAL
 from matplotlib import pyplot, rcParams
