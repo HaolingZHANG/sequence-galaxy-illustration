@@ -16,7 +16,7 @@ please install the following dependencies using
 ```shell
 conda create -n cartography python=3.10 -y
 conda activate cartography
-conda install numpy==1.26.4 scikit-learn==1.7.2 shapely matplotlib -c conda-forge -y
+conda install matplotlib==3.10.8 numpy==1.26.4 scikit-learn==1.7.2 shapely==2.1.2 -c conda-forge -y
 ```
 
 ## Working procedure
